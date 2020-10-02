@@ -1,0 +1,51 @@
+#mobile, #print{
+    display: none;
+} 
+@media print {
+    #mobile, #app {
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    #mobile {
+        display: none;
+    }
+
+    #app {
+        display: block;
+    }
+}
+body{
+   
+    margin: auto;
+}
+h1{
+    color: rgba(59, 70, 13, 0.658)
+}
+.logo{
+    border-radius: 40%;
+    width: 250px;
+}
+.header {
+background-image:url('images/header.jpg');
+background-repeat: no-repeat;
+}
+
+/*.fleks{
+    
+    display: flex;
+
+}
+ child selector
+.fleks > div {
+    border: solid 1px blue;
+
+    flex: 1;
+}
+
+.fleks > div:nth-child(2) {
+    flex: 2;
+}
+
+*/
